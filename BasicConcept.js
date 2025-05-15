@@ -88,9 +88,76 @@
 // console.log("a=", a);
 // console.log("b=", b);
 // console.log("c=", c);
+
+// Unary Operater
+
 // let a = true
 // ++a
-// console.log(a);
+// console.log(a); // 2
+// let a = 33
+// 33++
+// console.log(a); // Error => becuse we cant't set the operater on constent eg 20++
+
+// let x = 22
+// let y = ++(x++)
+// console.log(y); // show the error becuse we can't add the ++ operater with constent
+
+// Math Function
+
+// console.log(Math.round(55.1)); // if we write b/w 1 to 4 it will remove the point value
+// ans = 55
+
+// console.log(Math.round(55.7)); // if we write b/w 5 to 9 it will add 1
+// ans = 56
+
+// console.log(Math.ceil(22.1)); // ceil mean up it will add 1
+// ans= 23
+
+// console.log(Math.floor(45.7)); // it will remove the value which came after point
+// ans = 45
+
+// console.log(Math.trunc(45.8)); // it will remove the value which came after point
+// ans = 45
+
+// console.log(Math.pow(2, 3)); // it will take tow value in which first is value and secont is the power of that value 2^3   2*2*2*2
+// ans = 8
+
+// console.log(Math.cbrt(125)); // it will retrun cube //Because cbrt() is a static method of Math, you always use it as Math.cbrt(), rather than as a method of a Math object you created (Math is not a constructor)
+// ans = 5
+
+// console.log(Math.sqrt(81)); // it will return the sqaure of that particulaer number
+// ans = 9
+
+// console.log(Math.abs(22 - 25));
+// The absolute value of x.If x is negative or - 0, returns its opposite number - x(which is non - negative).Otherwise, returns x itself.The result is therefore always a positive number or 0.
+
+// console.log(Math.max(1, 3, 667, 23, 43)); //The Math.max() static method returns the largest of the numbers given as input parameters, or -Infinity if there are no parameters.
+
+// const artt = [1, 3, 4];
+// console.log(Math.max(...artt)); // 4
+// const artt = [1, 3, 4];
+// console.log(Math.min(...artt)); // 4 same work return mmin value
+
+// console.log(Math.sign(3));
+// Expected output: 1
+// If x is positive, returns 1.
+// If x is negative, returns - 1.
+// If x is positive zero, returns 0.
+// If x is negative zero, returns - 0.
+
+console.log(Math.floor(Math.random(22) * 1222 + 1000)); // it will return the random number // this method usully used in to generate the OTP 
+let a = 22.234324
+// console.log(a.toFixed(1)); it will return the given parameter length which is given in the toFixed
+// ans = 22.2
+
+
+
+
+
+
+
+
+
 
 
 

@@ -23,6 +23,8 @@
 // console.log(1-"1"); = 0
 // console.log(1 * "1"); = 1
 // console.log(1 / "1"); = 1
+
+
 //  Q No 4
 //  accept and print the answer
 // let age = Number(prompt("enter your age now"))
@@ -30,7 +32,6 @@
 
 // Q No5
 // Swaping
-
 // let a = 20
 // let b = 10
 // [a, b] = [b, a]
@@ -61,13 +62,13 @@
 
 // let a = 12 // post Increament
 // let b = a++
-// console.log(a);
-// console.log(b);
+// console.log(a); // 12
+// console.log(b);// 13
 
 // let b = 10; // pre increament
 // let c = ++b
-// console.log(b);
-// console.log(c);
+// console.log(b); // 11
+// console.log(c); 11
 // let a = 12 // post decreament
 // let b = a--
 // console.log(a);
@@ -115,7 +116,6 @@
 
 // console.log(Math.floor(45.7)); // it will remove the value which came after point
 // ans = 45
-
 // console.log(Math.trunc(45.8)); // it will remove the value which came after point
 // ans = 45
 
@@ -145,10 +145,46 @@
 // If x is positive zero, returns 0.
 // If x is negative zero, returns - 0.
 
-console.log(Math.floor(Math.random(22) * 1222 + 1000)); // it will return the random number // this method usully used in to generate the OTP 
-let a = 22.234324
+// console.log(Math.floor(Math.random(22) * 1222 + 1000)); // it will return the random number // this method usully used in to generate the OTP
+
+// let a = 22.234324
 // console.log(a.toFixed(1)); it will return the given parameter length which is given in the toFixed
 // ans = 22.2
+
+
+// Math Problem
+
+// calculate area and parameter of rectangular 1
+// let a = 12;
+// let b = 24;
+// console.log(a * b);
+// formula 2*(length + breeth)
+// let c = 2 * (12 + 24)
+// console.log(c);
+// ans = 72
+
+// Q No 2
+// Generate OTP
+// let a = 21212
+// console.log(Math.trunc(Math.random(a) * 900 + 1000));
+
+// semi Parametr
+// area of triangle by circomferince  by heron's farmula
+// let x = 23;
+// let y = 24;
+// let z = 7;
+// let res = (x + y + z) / 2 // semi parameter farmula  semi para mn 3no ko half krna hota ha
+// console.log(res);
+// console.log(Math.trunc(Math.sqrt(res * (res - x) * (res - y) * (res - z))));
+
+
+// Circumferince of circle
+
+// let a = 12
+// console.log((2 * Math.PI * a).toFixed(2)); // 2*math.PI*
+
+
+
 
 
 

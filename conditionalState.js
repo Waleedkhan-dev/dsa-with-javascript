@@ -152,7 +152,7 @@
 
 // }
 
-// let a = (0.2 + 0.1)// chatgpt
+// let a = (0.2 + 0.1)//  Tofixed @ bar esly lgaya ha k hmy string to string se matvh krwana ha
 // switch (a.toFixed(1)) {
 //  case (0.3).toFixed(1): console.log("true");
 //   break

@@ -37,27 +37,24 @@
 // Question Starting
 
 // Question No 1
-// Sum of Natural Number and Factoral of  Number 
+// Sum of Natural Number and Factoral of  Number
 
-var num = Number(prompt("Please Enter any natural number"))
+// var num = Number(prompt("Enter a natural number"))
 
-if (isNaN(num)) {
- console.log("please Enter the correct number");
-
-}
-else {
- if (num > 0) {
-  var sum = 0
-  for (var i = 1; i <= num; i++) {
-   sum = sum + i
-  }
-  console.log(sum);
-
- }
- else {
-  console.log("The number should be Positve and Greater Then 0");
-
- }
-}
+// if (isNaN(num)) {
+//  console.log("Please Enter teh correct number")
+// }
+// else {
+//  if (num > 0) {
+//   var sum = 0
+//   for (var i = 1; i <= num; i++) {
+//    sum = sum + i
+//   }
+//   console.log(sum);
+//  }
+//  else {
+//   console.log("  The number should be positive and greater then 0");
+//  }
+// }
 
 

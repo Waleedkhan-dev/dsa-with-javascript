@@ -39,22 +39,71 @@
 // Question No 1
 // Sum of Natural Number and Factoral of  Number
 
-// var num = Number(prompt("Enter a natural number"))
+// var num = (prompt("Enter a natural number"))
+// if (num === null) {
+//  console.log("cancelled");
 
-// if (isNaN(num)) {
-//  console.log("Please Enter teh correct number")
 // }
 // else {
-//  if (num > 0) {
-//   var sum = 0
-//   for (var i = 1; i <= num; i++) {
-//    sum = sum + i
-//   }
-//   console.log(sum);
+//  var num = Number(num)
+//  if (isNaN(num)) {
+//   console.log("Please Enter teh correct number")
 //  }
 //  else {
-//   console.log("  The number should be positive and greater then 0");
+//   if (num > 0) {
+//    var sum = 0
+//    for (var i = 1; i <= num; i++) {
+//     sum = sum + i
+//    }
+//    console.log( sum);
+//   }
+//   else {
+//    console.log("  The number should be positive and greater then 0");
+//   }
+//  }
+
+// }
+// var fact = prompt("Enter thw fact number")
+// if (fact === null) {
+//  console.log("cancelled");
+// }
+// else {
+//  var factNum = Number(fact)
+//  if (factNum > 0) {
+//   var addfact = 1
+//   for (var i = 1; i <= factNum; i++) {
+//    addfact = addfact * i
+//   }
+//   console.log(addfact);
+//  }
+//  else {
+//   console.log("please Enetr the correct");
+
 //  }
 // }
+
+
+// Question No 4
+
+// factors of Number 
+
+var factor = prompt("enter the factor number")
+if (factor === null) {
+ console.log('CANCELLED');
+
+}
+else {
+ var factorNum = Number(factor)
+ if (factorNum > 0) {
+  for (var i = 1; i <= Math.floor(factorNum / 2); i++) {
+   if (factorNum % i === 0) {
+    console.log(i);
+
+   }
+  }
+ }
+}
+
+
 
 

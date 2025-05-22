@@ -85,25 +85,61 @@
 
 // Question No 4
 
-// factors of Number 
+// factors of Number
 
-var factor = prompt("enter the factor number")
-if (factor === null) {
- console.log('CANCELLED');
+// var factor = prompt("enter the factor number")
+// if (factor === null) {
+//  console.log('CANCELLED');
+
+// }
+// else {
+//  var factorNum = Number(factor)
+//  if (factorNum > 0) {
+//   for (var i = 1; i <= Math.floor(factorNum / 2); i++) {
+//    if (factorNum % i === 0) {
+//     console.log(i);
+
+//    }
+//   }
+//  }
+// }
+
+// Prime Number
+
+// const prime = prompt("Enter Prime number")
+// if (prime === null) {
+//  console.log("cancelled");
+// }
+// else {
+//  var primeNum = Number(prime)
+//  if (primeNum > 0) {
+
+//   var C = true
+//   for (let i = 2; i <= Math.floor(primeNum) / 2; i++) {
+//    if (primeNum % i === 0) {
+//     C = false
+//     break
+//    }
+//   }
+
+//   console.log(C);
+
+//  }
+//  else {
+//   console.log("Inter the valid number");
+
+//  }
+// }
+
+// Prime Number Throgh Function 
+
+function primeNum(n) {
+ if (n <= 1) return false
+ if (n == 2) return true
+ if (n % 1 === 0) return false
+
 
 }
-else {
- var factorNum = Number(factor)
- if (factorNum > 0) {
-  for (var i = 1; i <= Math.floor(factorNum / 2); i++) {
-   if (factorNum % i === 0) {
-    console.log(i);
-
-   }
-  }
- }
-}
-
 
 
 

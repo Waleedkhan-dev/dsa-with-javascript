@@ -132,13 +132,35 @@
 // }
 
 // Prime Number Throgh Function 
+var prime = prompt("Enter  the Prime Nhumber")
+if (prime === null) {
+ console.log("cancelled");
+}
+else {
+ var primeNu = Number(prime)
 
+ if (isNaN(primeNu)) {
+  console.log("Invalid Input");
+
+ }
+ else {
+  if (primeNu > 0) {
+   console.log(primeNum(primeNu));
+  }
+  else {
+   console.log("Number should be greater the 0");
+
+  }
+ }
+}
 function primeNum(n) {
  if (n <= 1) return false
  if (n == 2) return true
- if (n % 1 === 0) return false
-
-
+ if (n % 2 == 0) return false
+ for (i = 3; i <= Math.floor(Math.sqrt(n)); i += 2) {
+  if (i == 0) return false
+ }
+ return true
 }
 
 

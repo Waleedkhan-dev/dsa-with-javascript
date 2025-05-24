@@ -145,7 +145,14 @@ else {
  }
  else {
   if (primeNu > 0) {
-   console.log(primeNum(primeNu));
+   x = true
+   for (let i = 3; i <= (primeNu) / 2; i += 2) {
+    x = true
+    if (primeNu % i == 0) {
+     x = false
+    }
+   }
+
   }
   else {
    console.log("Number should be greater the 0");

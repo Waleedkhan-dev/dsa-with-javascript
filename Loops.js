@@ -131,44 +131,61 @@
 //  }
 // }
 
-// Prime Number Throgh Function 
-var prime = prompt("Enter  the Prime Nhumber")
-if (prime === null) {
- console.log("cancelled");
+// Prime Number Throgh Function
+// var prime = prompt("Enter  the Prime Nhumber")
+// if (prime === null) {
+//  console.log("cancelled");
+// }
+// else {
+//  var primeNu = Number(prime)
+
+//  if (isNaN(primeNu)) {
+//   console.log("Invalid Input");
+
+//  }
+//  else {
+//   if (primeNu > 0) {
+//    x = true
+//    for (let i = 3; i <= (primeNu) / 2; i += 2) {
+//     x = true
+//     if (primeNu % i == 0) {
+//      x = false
+//     }
+//    }
+
+//   }
+//   else {
+//    console.log("Number should be greater the 0");
+
+//   }
+//  }
+// }
+// function primeNum(n) {
+//  if (n <= 1) return false
+//  if (n == 2) return true
+//  if (n % 2 == 0) return false
+//  for (i = 3; i <= Math.floor(Math.sqrt(n)); i += 2) {
+//   if (i == 0) return false
+//  }
+//  return true
+// }
+
+// Break and continue
+// Break Stope the loop
+//  continue skip and move to the next value
+// Break
+// for (var i = 1; i < 23; i++) {
+//  if (i === 11) break
+//  else console.log(i);
+// }
+// continue
+for (var i = 1; i < 12; i++) {
+ if (i === 3) continue
+ else console.log(i);
+
 }
-else {
- var primeNu = Number(prime)
 
- if (isNaN(primeNu)) {
-  console.log("Invalid Input");
 
- }
- else {
-  if (primeNu > 0) {
-   x = true
-   for (let i = 3; i <= (primeNu) / 2; i += 2) {
-    x = true
-    if (primeNu % i == 0) {
-     x = false
-    }
-   }
-
-  }
-  else {
-   console.log("Number should be greater the 0");
-
-  }
- }
-}
-function primeNum(n) {
- if (n <= 1) return false
- if (n == 2) return true
- if (n % 2 == 0) return false
- for (i = 3; i <= Math.floor(Math.sqrt(n)); i += 2) {
-  if (i == 0) return false
- }
- return true
-}
 
 
 

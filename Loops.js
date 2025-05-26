@@ -179,12 +179,19 @@
 //  else console.log(i);
 // }
 // continue
-for (var i = 1; i < 12; i++) {
- if (i === 3) continue
- else console.log(i);
+// for (var i = 1; i < 12; i++) {
+//  if (i === 3) continue // skip the 3 and move on the other value
+//  else console.log(i);
+
+// }
+// While Loop
+
+var nameCheck = prompt("Hello Waledd kahn ")
+
+while (nameCheck !== "waleed") {
+ nameCheck = prompt("Enter the age")
 
 }
-
 
 
 

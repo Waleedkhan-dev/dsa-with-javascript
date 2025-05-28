@@ -186,13 +186,73 @@
 // }
 // While Loop
 
-var nameCheck = prompt("Hello Waledd kahn ")
+// var nameCheck = prompt("Hello Waledd kahn ")
+// while (nameCheck !== "waleed") {
+//  nameCheck = prompt("Enter the age")
+// }
 
-while (nameCheck !== "waleed") {
- nameCheck = prompt("Enter the age")
+// Question No 10
+// Sum of digit
+// var sum = prompt("Enter the digit num which you wanna sum")
+// if (sum == null) {
+//  console.log("You cancelled The Alter");
 
-}
+// }
+// else {
+//  var sumNum = Number(sum)
+//  if (isNaN(sumNum)) {
+//   console.log("invalid input");
 
 
+//  }
+//  else {
+//   if (sumNum > 0) {
+//    var sumDigit = 0;
+//    while (sumNum > 0) {
+//     var rem = sumNum % 10
+//     var sumDigit = rem + sumDigit
+//     sumNum = Math.floor(sumNum / 10)
+
+
+//    }
+//    console.log(sumDigit);
+//   }
+//   else {
+//    console.log("sorry bro i am tired from linkedin jiv serch");
+
+//   }
+
+//  }
+// }
+
+// var n = prompt("Helloe please inter the number")
+// if (n == null) {
+//  console.log("cancelled");
+
+
+// }
+// else {
+//  var nNum = Number(n)
+//  if (isNaN(nNum)) {
+//   console.log("invalid sentence");
+
+//  }
+//  else {
+//   if (nNum > 0) {
+//    var sum = 0
+//    while (nNum > 0) {
+//     var rem = nNum % 0
+//     sum = rem + sum
+//     nNum = Math.floor(nNum / 10)
+//    }
+//    console.log(sum);
+
+//   }
+//   else {
+//    console.log("Please Inter the correct Name and number should be grater the 0");
+
+//   }
+//  }
+// }
 
 

@@ -255,11 +255,79 @@
 //  }
 // }
 
-var a = 12
-var b = 17
+// swapping 
+// var a = 12
+// var b = 17
 
-a = a ^ b
-b = a ^ b
-a = a ^ b
-console.log("a = ", a, b);
+// a = a ^ b
+// b = a ^ b
+// a = a ^ b
+// console.log("a = ", a, b);
 
+
+Revers
+
+// var num = prompt("Enter the number")
+// if (num == null) {
+//  console.log("cancelled");
+
+// }
+// else {
+//  var Num = Number(num)
+//  if (isNaN(Num)) {
+//   console.log("invalid Syntax");
+//  }
+//  else {
+//   if (Num > 0) {
+//    var Reve = 0
+//    while (Num > 0) {
+//     var rem = Num % 10
+//     Reve = Reve * 10 + rem
+//     Num = Math.floor(Num / 10)
+//    }
+//    console.log(Reve);
+
+
+//   }
+//   else {
+//    console.log("Num must be Greater then 0");
+
+//   }
+//  }
+// }
+
+
+// Strong Number 
+
+var Stro = prompt("Enter Strong NUmber")
+if (Stro == null) {
+ console.log("Cancelled");
+
+}
+else {
+ var stroNum = Number(Stro)
+ if (isNaN(Number)) {
+  console.log("Invalid Syntax");
+
+ }
+ else {
+  if (stroNum > 0) {
+   var sum = 0
+   while (stroNum > 0) {
+    var rem = stroNum % 10
+    var fact = 1
+    for (var i = 1; i <= rem; i++) {
+     fact = fact * i
+    }
+    sum = sum + fact
+    stroNum = Math.floor(stroNum / 10)
+   }
+   console.log(sum);
+
+  }
+  else {
+   console.log("The number Should Be Greater then 0");
+
+  }
+ }
+}

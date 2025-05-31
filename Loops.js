@@ -265,7 +265,7 @@
 // console.log("a = ", a, b);
 
 
-Revers
+
 
 // var num = prompt("Enter the number")
 // if (num == null) {
@@ -299,35 +299,36 @@ Revers
 
 // Strong Number 
 
-var Stro = prompt("Enter Strong NUmber")
-if (Stro == null) {
+var str = prompt("Please Enter the correct  Number")
+
+if (str == null) {
  console.log("Cancelled");
+
 
 }
 else {
- var stroNum = Number(Stro)
- if (isNaN(Number)) {
-  console.log("Invalid Syntax");
+ var strNum = Number(str)
+ if (strNum > 0) {
+  var originalNum = strNum
+  var sum = 0
+  while (strNum > 0) {
+   var Rem = strNum % 10
+   var fact = 1
+   for (var i = 1; i <= Rem; i++) {
+    fact = fact * i
+   }
+   sum = sum + fact
+   strNum = Math.floor(strNum / 10)
+  }
+  if (sum === originalNum) {
+   console.log(originalNum + " is a Strong Number");
+  } else {
+   console.log(originalNum + " is NOT a Strong Number");
+  }
 
  }
  else {
-  if (stroNum > 0) {
-   var sum = 0
-   while (stroNum > 0) {
-    var rem = stroNum % 10
-    var fact = 1
-    for (var i = 1; i <= rem; i++) {
-     fact = fact * i
-    }
-    sum = sum + fact
-    stroNum = Math.floor(stroNum / 10)
-   }
-   console.log(sum);
+  console.log("Invalid Syntax");
 
-  }
-  else {
-   console.log("The number Should Be Greater then 0");
-
-  }
  }
 }

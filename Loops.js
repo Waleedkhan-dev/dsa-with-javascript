@@ -255,7 +255,7 @@
 //  }
 // }
 
-// swapping 
+// swapping
 // var a = 12
 // var b = 17
 
@@ -297,38 +297,45 @@
 // }
 
 
-// Strong Number 
+// Strong Number
 
-var str = prompt("Please Enter the correct  Number")
+// var str = prompt("Please Enter the correct  Number")
 
-if (str == null) {
- console.log("Cancelled");
+// if (str == null) {
+//  console.log("Cancelled");
 
 
-}
-else {
- var strNum = Number(str)
- if (strNum > 0) {
-  var originalNum = strNum
-  var sum = 0
-  while (strNum > 0) {
-   var Rem = strNum % 10
-   var fact = 1
-   for (var i = 1; i <= Rem; i++) {
-    fact = fact * i
-   }
-   sum = sum + fact
-   strNum = Math.floor(strNum / 10)
-  }
-  if (sum === originalNum) {
-   console.log(originalNum + " is a Strong Number");
-  } else {
-   console.log(originalNum + " is NOT a Strong Number");
-  }
+// }
+// else {
+//  var strNum = Number(str)
+//  if (strNum > 0) {
+//   var originalNum = strNum
+//   var sum = 0
+//   while (strNum > 0) {
+//    var Rem = strNum % 10
+//    var fact = 1
+//    for (var i = 1; i <= Rem; i++) {
+//     fact = fact * i
+//    }
+//    sum = sum + fact
+//    strNum = Math.floor(strNum / 10)
+//   }
+//   if (sum === originalNum) {
+//    console.log(originalNum + " is a Strong Number");
+//   } else {
+//    console.log(originalNum + " is NOT a Strong Number");
+//   }
 
- }
- else {
-  console.log("Invalid Syntax");
+//  }
+//  else {
+//   console.log("Invalid Syntax");
 
- }
-}
+//  }
+// }
+
+// do while Loop
+var i = 1
+do {
+ console.log("I am run first time either condition false");
+ i++;
+} while (i < 10)

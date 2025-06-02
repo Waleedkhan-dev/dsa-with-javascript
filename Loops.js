@@ -334,8 +334,16 @@
 // }
 
 // do while Loop
-var i = 1
-do {
- console.log("I am run first time either condition false");
- i++;
-} while (i < 10)
+// var i = 1
+// do {
+//  console.log("I am run first time either condition false");
+//  i++;
+// } while (i < 10)
+
+// Repeat Hello
+// let EnterPro
+// do {
+//  EnterPro = Number(prompt("Enter the correct Number"))
+// } while (EnterPro !== 0)
+// console.log("well com to 0 ");
+

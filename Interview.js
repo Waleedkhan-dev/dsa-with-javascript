@@ -51,6 +51,14 @@
 //  result[user.id] = user.name
 // })
 
+// let obj = [1, 2, 3]
+// let b = [12,3,5,2]
+// let newData = [...obj,...b]
+// console.log(newData);
+
+
+
+
 
 
 

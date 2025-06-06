@@ -37,3 +37,12 @@
 // }
 
 // Pattrens Programming
+
+// Question 1 Right Angile Triangle
+// let n = 7
+// for (let i = 1; i <= n; i++) {
+//  for (let j = 1; j <= i; j++) {
+//   process.stdout.write("hello ")
+//  }
+//  console.log();
+// }

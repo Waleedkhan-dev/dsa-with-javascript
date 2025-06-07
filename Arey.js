@@ -35,16 +35,16 @@
 //  sum = sum + arr[i]
 // }
 // console.log(sum);
-// Question 2 Max Element In the arrey 
-let a = [1, 2, 3, 4]
-let mx = a[i]
+// Question 2 Max Element In the arrey
+// let a = [1, 2, 3, 4]
+// let mx = a[i]
 
 
-for (let i = 0; i < a.length; i++) {
- if (mx < a[i]) {
-  mx = a[i]
- }
-}
+// for (let i = 0; i < a.length; i++) {
+//  if (mx < a[i]) {
+//   mx = a[i]
+//  }
+// }
 
 
 

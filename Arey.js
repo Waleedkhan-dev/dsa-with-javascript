@@ -43,8 +43,22 @@
 // for (let i = 0; i < a.length; i++) {
 //  if (mx < a[i]) {
 //   mx = a[i]
+
 //  }
 // }
+
+
+// let mxNum = [1, 3, 44, 55, 6]
+
+// let mx = mxNum[0]
+// for (let i = 0; i < mxNum.length; i++) {
+//  if (mx < mxNum[i]) {
+//   mx = mxNum[i]
+//  }
+// }
+// console.log(mx);
+
+
 
 
 

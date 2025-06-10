@@ -58,7 +58,28 @@
 // }
 // console.log(mx);
 
+// let arr = [2, 3, 4, 5]
+// let min = arr[0]
 
+// for (let i = 1; i < arr.length; i++) {
+//  if (min > arr[i]) {
+//   min = arr[i]
+//  }
 
+// }
+// console.log(min);
+
+// let ArrMax = [1, 2, 3, 4, 4.5, 5]
+
+// let fmx = Math.max(ArrMax[0], ArrMax[1])
+// let smx = Math.min(ArrMax[0], ArrMax[1])
+
+// for (let i = 2; i < ArrMax.length; i++) {
+//  if (ArrMax[i] > fmx) {
+//   smx = fmx
+//   fmx = ArrMax[i]
+//  }
+// }
+// console.log(smx);
 
 

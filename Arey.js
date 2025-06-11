@@ -69,7 +69,7 @@
 // }
 // console.log(min);
 
-// let ArrMax = [1, 2, 3, 4, 4.5, 5]
+// let ArrMax = [1, 2, 5, 5, 5]
 
 // let fmx = Math.max(ArrMax[0], ArrMax[1])
 // let smx = Math.min(ArrMax[0], ArrMax[1])
@@ -78,8 +78,54 @@
 //  if (ArrMax[i] > fmx) {
 //   smx = fmx
 //   fmx = ArrMax[i]
+//  } else if (ArrMax[i] > smx && fmx != ArrMax[i]) {
+//    smx = ArrMax[i]
+//   }
 //  }
+//  console.log(smx);
+
+
+// Revers The Arrey  1 Method
+// let res = [1, 2, 3, 4]
+
+// let newTem = new Array(res.length)
+// let j = 0
+
+// for (let i = res.length - 1; i >= 0; i--) {
+//  newTem[j] = res[i]
+//  j++
 // }
-// console.log(smx);
+// console.log(newTem);
+
+// Revers The Arrey  2 Method
+// let arr = [1, 2, 3, 4]
+// let i = 0, j = arr.length - 1
+
+// while (i != j) {
+//  let tem = arr[i]
+//  arr[i] = arr[j]
+//  arr[j] = tem
+//  i++
+//  j--
+
+// }
+// console.log(arr);
+
+// 1 leftt side and 0 right side
+
+// let arr = [1, -12, 1, 0, 1, 0, 0, 0, ]
+// let i = 0, j = 0;
+// while (i < arr.length) {
+//  if (arr[i] == 1) {
+//   let tem = arr[i]
+//   arr[i] = arr[j]
+//   arr[j] = tem
+//   j++
+//  }
+//  i++
+// }
+// console.log(arr);
+
+
 
 

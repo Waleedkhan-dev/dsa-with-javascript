@@ -100,6 +100,7 @@
 // Revers The Arrey  2 Method
 // let arr = [1, 2, 3, 4]
 // let i = 0, j = arr.length - 1
+console.log("connection");
 
 // while (i != j) {
 //  let tem = arr[i]
